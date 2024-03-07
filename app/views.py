@@ -73,8 +73,8 @@ def logout():
     return redirect(url_for('home'))
 
 
-# user_loader callback. This callback is used to reload the user object from
-# the user ID stored in the session
+
+
 @login_manager.user_loader
 def load_user(id):
     return db.session.execute(db.select(UserProfile).filter_by(id=id)).scalar()
