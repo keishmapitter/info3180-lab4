@@ -1,0 +1,7 @@
+
+FLASK_DEBUG=True
+FLASK_RUN_PORT=8080
+FLASK_RUN_HOST=0.0.0.0
+SECRET_KEY='Fire'
+UPLOAD_FOLDER='./uploads'
+DATABASE_URL=postgresql://lab4_user:1876123456789@localhost/lab4
